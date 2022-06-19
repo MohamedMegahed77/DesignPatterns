@@ -17,7 +17,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SingletonPattern", "Singlet
 		singleton.txt = singleton.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{131D8DD3-B6BF-44BD-A13B-59D6E5E69F75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{131D8DD3-B6BF-44BD-A13B-59D6E5E69F75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.IteratorDesignPattern", "Behavioral.IteratorDesignPattern\Behavioral.IteratorDesignPattern.csproj", "{7CF7D764-6631-4533-B696-5E4206735652}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.ObserverDesignPattern", "Behavioral.ObserverDesignPattern\Behavioral.ObserverDesignPattern.csproj", "{5D23ADA0-2284-4625-A8C7-5FE49458E67D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.ChainofResponsibility", "Behavioral.ChainofResponsibility\Behavioral.ChainofResponsibility.csproj", "{269C14EF-8F2F-4C69-86E8-734D798F0752}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +35,18 @@ Global
 		{131D8DD3-B6BF-44BD-A13B-59D6E5E69F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{131D8DD3-B6BF-44BD-A13B-59D6E5E69F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{131D8DD3-B6BF-44BD-A13B-59D6E5E69F75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CF7D764-6631-4533-B696-5E4206735652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CF7D764-6631-4533-B696-5E4206735652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CF7D764-6631-4533-B696-5E4206735652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CF7D764-6631-4533-B696-5E4206735652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D23ADA0-2284-4625-A8C7-5FE49458E67D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D23ADA0-2284-4625-A8C7-5FE49458E67D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D23ADA0-2284-4625-A8C7-5FE49458E67D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D23ADA0-2284-4625-A8C7-5FE49458E67D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{269C14EF-8F2F-4C69-86E8-734D798F0752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{269C14EF-8F2F-4C69-86E8-734D798F0752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{269C14EF-8F2F-4C69-86E8-734D798F0752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{269C14EF-8F2F-4C69-86E8-734D798F0752}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
