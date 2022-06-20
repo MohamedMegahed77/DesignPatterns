@@ -3,20 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "creational-design-pattern", "creational-design-pattern", "{EB14617D-76BA-4B24-BB78-5FFC157125B2}"
-	ProjectSection(SolutionItems) = preProject
-		creational-design-pattern.txt = creational-design-pattern.txt
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "structural-design-pattern", "structural-design-pattern", "{AD015E93-8F43-429C-A74C-56263A6B8C6D}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "behavioral-design-pattern", "behavioral-design-pattern", "{36E5CD06-ED77-437D-AFD2-BA812BCCD4DD}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SingletonPattern", "SingletonPattern", "{C514575F-B738-43AC-9414-3573E4B1C21A}"
-	ProjectSection(SolutionItems) = preProject
-		singleton.txt = singleton.txt
-	EndProjectSection
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creational.SingletonDesignpattern", "Singleton\Creational.SingletonDesignpattern.csproj", "{131D8DD3-B6BF-44BD-A13B-59D6E5E69F75}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Behavioral.IteratorDesignPattern", "Behavioral.IteratorDesignPattern\Behavioral.IteratorDesignPattern.csproj", "{7CF7D764-6631-4533-B696-5E4206735652}"
@@ -30,6 +16,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational.Fluent", "Creational.Fluent\Creational.Fluent.csproj", "{832C9040-9C91-4527-A03B-190513E3EE8C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational.PrototypeDesignPattern", "Creational.PrototypeDesignPattern\Creational.PrototypeDesignPattern.csproj", "{D8DDA4F7-9805-4A39-8A9E-BCDA304E43C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.AdapterDesignPattern", "Structural.AdapterDesignPattern\Structural.AdapterDesignPattern.csproj", "{056B36D1-FCD5-495F-9BB6-A9E6676E0020}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Facade", "Structural.Facade\Structural.Facade.csproj", "{3C29F281-E023-43BE-8A7C-46F919AE15E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Decorator", "Structural.Decorator\Structural.Decorator.csproj", "{20ECE18F-78F8-4338-9B65-316FA7D2CD87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,12 +57,21 @@ Global
 		{D8DDA4F7-9805-4A39-8A9E-BCDA304E43C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8DDA4F7-9805-4A39-8A9E-BCDA304E43C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8DDA4F7-9805-4A39-8A9E-BCDA304E43C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{056B36D1-FCD5-495F-9BB6-A9E6676E0020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{056B36D1-FCD5-495F-9BB6-A9E6676E0020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{056B36D1-FCD5-495F-9BB6-A9E6676E0020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{056B36D1-FCD5-495F-9BB6-A9E6676E0020}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C29F281-E023-43BE-8A7C-46F919AE15E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C29F281-E023-43BE-8A7C-46F919AE15E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C29F281-E023-43BE-8A7C-46F919AE15E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C29F281-E023-43BE-8A7C-46F919AE15E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20ECE18F-78F8-4338-9B65-316FA7D2CD87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20ECE18F-78F8-4338-9B65-316FA7D2CD87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20ECE18F-78F8-4338-9B65-316FA7D2CD87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20ECE18F-78F8-4338-9B65-316FA7D2CD87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{C514575F-B738-43AC-9414-3573E4B1C21A} = {EB14617D-76BA-4B24-BB78-5FFC157125B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {98B80767-2D06-4647-841B-1F5378191521}
